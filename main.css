@@ -1,0 +1,27 @@
+div.container{
+	width: 786px;
+	margin: auto;
+}
+div.foto-alumna{
+	position: relative;
+	display: inline-block;
+	width: 250px; 
+	height: 250px;
+	margin: 5px;
+}
+img{
+	filter: grayscale(50%);
+	width: 250px; 
+	height: 250px;
+}
+span.name{
+	border-radius: 50px;
+	background-color: rgba(128, 5, 5, 0.54);
+	padding: 5px;
+	color:white;
+	font-weight: bold;
+	position: absolute;
+	display: block;
+	left: 80px;
+    top: 210px;
+}
